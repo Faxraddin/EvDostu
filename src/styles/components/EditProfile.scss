@@ -1,0 +1,54 @@
+.update-container{
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    border-radius: 8px;
+    position: absolute;
+    padding: 10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .upd{
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+            text-align: center;
+            font-size: 24px;
+        }
+    
+        .updateInput-con{
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+            .updateInput{
+                width: 350px;
+                height: 30px;
+                border-radius: 8px;
+                border: solid purple thin;
+            };
+        };
+    
+        .updateInput1{
+            width: 350px;
+            height: 220px;
+            border-radius: 8px;
+            border: solid purple thin;
+        }
+    
+        button{
+            background: none;
+            height: 50px;
+            border-radius: 8px;
+            border: solid purple thin;
+            color: purple;
+            font-size: 20px;
+            cursor: pointer;
+            width: 70%;
+            border-radius: 20px;
+        }
+    }
+}

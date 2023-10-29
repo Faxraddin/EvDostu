@@ -1,0 +1,29 @@
+.Navbar {
+  background-image: url('/Users/faxraddin/Rent House/Rent-House-App-1/client/public/nav.png');
+  filter: brightness(70%);
+  background-size: contain;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left:50px;
+  padding-right:50px;
+
+  .Navpage {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 42px;
+    text-decoration: none;
+    height: 100%;
+    } 
+}
+.active{
+  background: #4F23FF;
+  height: 100%;
+  padding: 0 10px 0 10px;
+  border-radius: 20px;
+}
